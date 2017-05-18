@@ -31,7 +31,9 @@ You can add an observer for the value(isOn) changed.
 
 ## Screenshots
 
-![portrait](https://github.com/muhammedtanriverdi/OnOffSwitch/blob/master/screenshot_portrait.png  "Portrait"))
-![landscape](https://github.com/muhammedtanriverdi/OnOffSwitch/blob/master/screenshot_landscape.png  "Landscape"))
+![portrait](https://github.com/muhammedtanriverdi/OnOffSwitch/blob/master/onoffswitch.gif)
+
+![portrait](https://github.com/muhammedtanriverdi/OnOffSwitch/blob/master/screenshot_portrait.png  "Portrait")
+![landscape](https://github.com/muhammedtanriverdi/OnOffSwitch/blob/master/screenshot_landscape.png  "Landscape")
 
 
