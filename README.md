@@ -13,10 +13,10 @@ MTOnOffControl *onOffControl = [[MTOnOffControl alloc] initWithFrame:self.onOffV
 
 2-You can set the on/off images. 
 ```
-onOffControl = [UIImage imageNamed:@"1_on.png"];
+onOffControl.onImage = [UIImage imageNamed:@"1_on.png"];
 ```
 ```
-onOffControl = [UIImage imageNamed:@"1_off.png"];
+onOffControl.offImage = [UIImage imageNamed:@"1_off.png"];
 ```
 
 3-You need to add the control as a subview in view. 
