@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OvG-9F-MZx">
+                                <rect key="frame" x="16" y="94.5" width="288" height="145.5"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c7E-h9-2pP">
+                                <rect key="frame" x="16" y="248" width="288" height="218"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MRr-Mv-TGV">
+                                <rect key="frame" x="16" y="14" width="288" height="72.5"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="c7E-h9-2pP" firstAttribute="top" secondItem="OvG-9F-MZx" secondAttribute="bottom" constant="8" id="56i-4f-G3R"/>
+                            <constraint firstItem="MRr-Mv-TGV" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="EuW-Fd-RZv"/>
+                            <constraint firstItem="MRr-Mv-TGV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="14" id="Gl3-dG-Bcy"/>
+                            <constraint firstItem="OvG-9F-MZx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Jr4-0Z-vhG"/>
+                            <constraint firstItem="MRr-Mv-TGV" firstAttribute="height" secondItem="OvG-9F-MZx" secondAttribute="height" multiplier="0.5" id="Mwq-o4-MqU"/>
+                            <constraint firstItem="c7E-h9-2pP" firstAttribute="height" secondItem="OvG-9F-MZx" secondAttribute="height" multiplier="1.5" id="OXv-kT-eao"/>
+                            <constraint firstItem="c7E-h9-2pP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Ta9-nG-eJz"/>
+                            <constraint firstItem="c7E-h9-2pP" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Teq-K4-AmL"/>
+                            <constraint firstItem="OvG-9F-MZx" firstAttribute="top" secondItem="MRr-Mv-TGV" secondAttribute="bottom" constant="8" id="TiS-Zi-4z5"/>
+                            <constraint firstItem="c7E-h9-2pP" firstAttribute="top" secondItem="OvG-9F-MZx" secondAttribute="bottom" constant="8" id="Z4U-9S-fbx"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="c7E-h9-2pP" secondAttribute="bottom" constant="14" id="fUH-IQ-67N"/>
+                            <constraint firstItem="MRr-Mv-TGV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="pd8-2n-WcL"/>
+                            <constraint firstItem="OvG-9F-MZx" firstAttribute="top" secondItem="MRr-Mv-TGV" secondAttribute="bottom" constant="8" id="shy-sY-2OA"/>
+                            <constraint firstItem="OvG-9F-MZx" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="zBI-Vn-sPW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="onOffViewBottom" destination="c7E-h9-2pP" id="abR-us-r2V"/>
+                        <outlet property="onOffViewMiddle" destination="OvG-9F-MZx" id="dL9-8G-OsJ"/>
+                        <outlet property="onOffViewTop" destination="MRr-Mv-TGV" id="9ww-TL-fGA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-15" y="135"/>
+        </scene>
+    </scenes>
+</document>
