@@ -28,3 +28,9 @@ You can add an observer for the value(isOn) changed.
 ```
 [onOffControl addObserver:self forKeyPath:@"isOn" options:0 context:NULL];
 ```
+
+## Screenshots
+
+![portrait](https://github.com/muhammedtanriverdi/OnOffSwitch/blob/master/screenshot_landscape.png)
+
+
